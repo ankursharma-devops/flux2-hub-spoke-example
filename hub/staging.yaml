@@ -44,10 +44,6 @@ spec:
   prune: true
   wait: true
   force: true
-  sourceRef:
-    kind: GitRepository
-    name: flux-system
-    namespace: flux-system
   kubeConfig:
     secretRef:
       name: cluster-kubeconfig
